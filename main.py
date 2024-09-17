@@ -42,6 +42,8 @@ used_disk = round(disk_info.used / (1024**3), 2)
 
 # Main
 def main():
+    print(f"Fetching system info...")
+    animation()
     print(f"""{color}
           
                           _,..,,,_
@@ -57,8 +59,6 @@ def main():
                                      ~--..--'     ':.         .:'
                                                      ':..___.:'
     {Fore.RESET}""")
-    print(f"Fetching system info...")
-    animation()
     print(f"OS: {osname} {osv}")
     print(f"CPU: {cpu}")
     print(f"CPU Cores: {cpucores}")
