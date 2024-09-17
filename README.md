@@ -20,9 +20,9 @@ Inspirations from Neofetch and Fastfetch
 
 # Concept 
 
-- IP tracking, City and Coordinates (IPv4 / URL)
-- Email Verifier, Finder on Websites.
-- Domain Osint.
+- System Information Fetcher
+- Hardware Display : CPU, CPU cores, Total Memory, Available memory, Disk, Disk Usage
+- Software Display : OS, OS version ...
 
 ## Start / setup
 
