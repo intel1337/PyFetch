@@ -6,21 +6,10 @@ import platform
 import colorama
 from colorama import Fore
 import sys
-<<<<<<< HEAD
-
-# Animation
-def animation():
-    zxz = ['|', '/', '-', '\\']
-    for anim in range(4): 
-        for frame in zxz:
-            sys.stdout.write(f'\r{frame}')
-            sys.stdout.flush()
-            time.sleep(0.1)                 
-=======
 
 def animation():
     spinner = ['|', '/', '-', '\\']
-    for anim in range(20): 
+    for anim in range(5): 
         for frame in spinner:
             sys.stdout.write(f'\r{frame}')
             sys.stdout.flush()
@@ -38,9 +27,6 @@ total_disk = round(disk_info.total / (1024**3), 2)
 used_disk = round(disk_info.used / (1024**3), 2)
     
 
->>>>>>> a468f51314b960d33f36222bc936067450b2977b
-
-
 # Infos
 osname = platform.system()
 osv = platform.release()
@@ -56,13 +42,8 @@ used_disk = round(disk_info.used / (1024**3), 2)
 
 # Main
 def main():
-<<<<<<< HEAD
-    print(f"PyFetch@#> Fetching System", animation())
     print(f"""{color}
           
-=======
-    print(f"""{color}
->>>>>>> a468f51314b960d33f36222bc936067450b2977b
                           _,..,,,_
                      '``````^~"-,_`"-,_
        .-~c~-.                    `~:. ^-.
@@ -74,13 +55,10 @@ def main():
        :  `-'   .:'             `.    `^~~^`   .:.  `.      ;    ;
         `-.__,-~                  ~-.        ,' ':    '.__.`    :'
                                      ~--..--'     ':.         .:'
-<<<<<<< HEAD
-                                                     ':..___.:'{Fore.RESET}""")
-=======
                                                      ':..___.:'
     {Fore.RESET}""")
-    print(f"Fetching system info...", animation)
->>>>>>> a468f51314b960d33f36222bc936067450b2977b
+    print(f"Fetching system info...")
+    animation()
     print(f"OS: {osname} {osv}")
     print(f"CPU: {cpu}")
     print(f"CPU Cores: {cpucores}")
@@ -88,11 +66,6 @@ def main():
     print(f"Available Memory: {available_memory} GB")
     print(f"Disk: {used_disk} GB used / {total_disk} GB total")
     print(f"Disk usage: {used_disk / total_disk * 100}%")
-<<<<<<< HEAD
-
-#Setup
-=======
->>>>>>> a468f51314b960d33f36222bc936067450b2977b
 def colorset():
     os.system('cls && title PyFetch@>')
     print("PyFetch@> Choose a Color :")
@@ -130,10 +103,14 @@ def colorset():
         color = "m" 
     if cinp not in ["b", "c", "m", "r", "g", "y", "w"]:
         print("PyFetch@Error> Invalid Color")
-        os.system('cls && title PyFetch@>')
-        input("Press Enter to Continue..")
-        colorset()
-  
+        if osname == "Windows":
+            os.system('cls && title PyFetch@>')
+            input("Press Enter to Continue..")
+            colorset()
+        else:
+            os.system("cls && title PyFetch@>")
+            input("Press Enter to Continue..")
+            colorset()
 def boot():
     if osname == "Windows":
         os.system('cls && title PyFetch@>')
