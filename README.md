@@ -2,9 +2,10 @@
 
 ##### A way more lightweight system information Fetcher !
 
-Project isn't finished ! Made with Hard Work, Documentations, ChatGPT. Inspirations from Osintgram, Littlebrother, Old Kali linux shell UI (on Github)
+Project isn't finished ! Made with Hard Work, Documentations. 
+Inspirations from Neofetch and Fastfetch
 
-# Release 07/09/23 On Github (OpenSource)
+# Release xx/xx/24 On Github (OpenSource)
 # [> Releases <](https://github.com/intel1337/Aphelios/releases)
 
 > I AM NOT RESPONSABLE OF WHAT YOU'RE DOING WITH MY SCRIPT
