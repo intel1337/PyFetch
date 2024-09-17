@@ -5,7 +5,7 @@
 Project isn't finished ! Made with Hard Work, Documentations. 
 Inspirations from Neofetch and Fastfetch
 
-# Release xx/xx/24 On Github (OpenSource)
+# Release xx/xx/24 On Github (OpenSource) Beta 0.1.0
 # [> Releases <](https://github.com/intel1337/)
 
 > I AM NOT RESPONSABLE OF WHAT YOU'RE DOING WITH MY SCRIPT
