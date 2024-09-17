@@ -24,7 +24,7 @@ Inspirations from Neofetch and Fastfetch
 - Hardware Display : CPU, CPU cores, Total Memory, Available memory, Disk, Disk Usage
 - Software Display : OS, OS version ...
 
-## Start / setup
+## Start
 
 ```
 1 - Install the script's modules (requirements.txt) / Open a shell and type : "pip install  -r requirements.txt
@@ -32,6 +32,17 @@ Inspirations from Neofetch and Fastfetch
 3 - Open main.py / PyFetch.exe / PyFetch.sh or open a shell and type "python3 main.py / python main.py"
 
 ```
+
+## Documentation / Setup
+```
+.
+.
+.
+.
+.
+.
+```
+
 
 # Contact : 
 > Discord ID : 766990219940855808
