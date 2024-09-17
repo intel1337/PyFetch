@@ -13,9 +13,10 @@ Inspirations from Neofetch and Fastfetch
 
 > Click On Star Button for support !🤓
 
-### Aphelios Screenshot
+### PyFetch Screenshot
 
-![image](https://github.com/intel1337/Aphelios/assets/93615583/f013cca0-cb33-452f-9638-078b9327f5e4)
+<img width="566" alt="Screenshot 2024-09-17 at 8 33 01 AM" src="https://github.com/user-attachments/assets/18f2de01-d935-4f84-b244-35d4cb84c77c">
+
 
 # Concept 
 
