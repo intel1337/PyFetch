@@ -1,2 +1,2 @@
 # PyFetch
-Fastfetch &amp; Neofetch system information display tool
+Fastfetch &amp; Neofetch like system information display tool
